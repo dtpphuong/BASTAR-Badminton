@@ -66,8 +66,8 @@
                     <div class="slogon-text">
                         <p>BADMINTON CLUB</p>
                     </div>
-                    <div class="slogon-button">
-                        <p>Chi nhánh 1: 249 Đoàn Thị Kia, phường Tân Đông Hiệp, thành phố Dĩ An, tỉnh Bình Dương</p>
+                    <div class="slogon-button" id="openModalBtn">
+                        <p>Đăng ký khoá học &#8594;</p>
                     </div>
                 </div>
             </div>
@@ -299,6 +299,58 @@
                     </div>
                 </div>
             </section>
+        </div>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-container">
+                    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 16px;">
+                        <span class="close">&times;</span>
+                        <p class="modal-title">Đăng ký <span style="color: #71A12D;">Khóa học</span></p>
+                        <h6 class="modal-tilte-text">Vui lòng điền thông tin của bạn để chúng tôi liên hệ lại</h6>
+                    </div>
+                    <div class="modal-group">
+                        <div style="width: 100%; display: flex; flex-direction: column; gap: 12px;">
+                            <div><p class="modal-text">Tên của trẻ*</p></div>
+                            <div>
+                                <input class="modal-input" type="text"  placeholder="Nhập tên trẻ" />
+                            </div>
+                        </div>
+                        <div style="width: 100%; display: flex; flex-direction: column; gap: 12px;">
+                            <div>
+                                <p class="modal-text">Tuổi của trẻ*</p>
+                            </div>
+                            <div>
+                                <input class="modal-input" type="text"  placeholder="Nhập tên trẻ" />
+                            </div>
+                        </div>
+                        <div style="width: 100%; display: flex; flex-direction: column; gap: 12px;">
+                            <div>
+                                <p class="modal-text">Tuổi phụ huynh*</p>
+                            </div>
+                            <div>
+                                <input class="modal-input" type="text"  placeholder="Nhập tên trẻ" />
+                            </div>
+                        </div>
+                        <div style="width: 100%; display: flex; flex-direction: column; gap: 12px;">
+                            <div>
+                                <p class="modal-text">Số điện thoại phụ huynh*</p>
+                            </div>
+                            <div>
+                                <input class="modal-input" type="text"  placeholder="Nhập tên trẻ" />
+                            </div>
+                        </div>
+                        <div style="width: 100%; display: flex; flex-direction: column; gap: 12px;">
+                            <div>
+                                <p class="modal-text">Email của phụ huynh (nếu có)</p>
+                            </div>
+                            <div><input class="modal-input" type="text"  placeholder="exam@gmail.com" /></div>
+                        </div>
+                    </div>
+                    <button class="modal-button" type="button">
+                        Đăng ký thông tin &#8594;
+                    </button>
+                </div>
+            </div>
         </div>
         <footer class="footer">
             <div class="footer-container">
